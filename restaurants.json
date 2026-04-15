@@ -1,0 +1,34 @@
+{
+    "restaurant_1": {
+        "name": "La Tavolata",
+        "tables": {
+            "T1": {"capacity": 2, "location": "window"},
+            "T2": {"capacity": 2, "location": "bar"},
+            "T3": {"capacity": 4, "location": "main"},
+            "T4": {"capacity": 4, "location": "main"},
+            "T5": {"capacity": 6, "location": "patio"},
+            "T6": {"capacity": 8, "location": "private"}
+        },
+        "timeslots": [
+            "17:00", "17:30", "18:00", "18:30",
+            "19:00", "19:30", "20:00", "20:30",
+            "21:00", "21:30"
+        ]
+    },
+    "restaurant_2": {
+        "name": "Sushi",
+        "tables": {
+            "T1": {"capacity": 2, "location": "counter"},
+            "T2": {"capacity": 2, "location": "counter"},
+            "T3": {"capacity": 4, "location": "booth"},
+            "T4": {"capacity": 4, "location": "booth"},
+            "T5": {"capacity": 6, "location": "tatami"},
+            "T6": {"capacity": 8, "location": "private"}
+        },
+        "timeslots": [
+            "17:00", "17:30", "18:00", "18:30",
+            "19:00", "19:30", "20:00", "20:30",
+            "21:00", "21:30"
+        ]
+    }
+}
