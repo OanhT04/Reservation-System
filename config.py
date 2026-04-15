@@ -12,9 +12,10 @@ GATEWAY_PORT = 5000
 # ─── Service Instances (TCP servers) ───────────────────────────────────
 # Each restaurant is handled by its own service instance (sharding).
 # Format: restaurant_id -> (host, port)
+# where we can add more restauraunts
 RESTAURANT_SERVICE_MAP = {
-    "restaurant_1": ("127.0.0.1", 6001),
-    "restaurant_2": ("127.0.0.1", 6002),
+    "restaurant1": ("127.0.0.1", 6001),
+    "restaurant2": ("127.0.0.1", 6002),
 }
 
 # User service
